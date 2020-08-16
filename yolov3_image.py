@@ -20,7 +20,7 @@ print(image.shape) # (548, 821, 3)
 print(blob.shape) # (1, 3, 416, 416)
 
 # Create labels into list
-with open('yolo-coco-data/coco.names') as f:
+with open('cfg/coco.names') as f:
     labels = [line.strip() for line in f]
 
 # Initialize colours for representing every detected object
